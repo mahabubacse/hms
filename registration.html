@@ -15,7 +15,6 @@ if($query)
 {
 	$msg = "Dear $fname,\nYour registration has been successfully completed. You can now login by using your usernamae & password.";
 	sendSms($mobileNo,$msg);
-	echo "<script>alert('Successfully Registered. You can login now');</script>";
 	header('location:user-login.php');
 }
 }
