@@ -1,5 +1,5 @@
 
-**Our project name: Hospital Management system**
+**Project Name: Hospital Management system**
 
 This is Patient Sign up form. To sign up, the user must be filled the Required Information. The following image showing the sign up form
 
