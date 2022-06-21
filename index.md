@@ -1,4 +1,7 @@
 
+
+
+**This is our Registration page**
 <!-- start: REGISTER BOX -->
 				<div class="box-register">
 					<form name="registration" id="registration"  method="post" onSubmit="return valid();">
@@ -36,7 +39,7 @@
 									</label>
 								</div>
 							</div>
-							<p>
+							<p>								
 								Enter your account details below:
 							</p>
 							<div class="form-group">
