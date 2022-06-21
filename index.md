@@ -3,6 +3,14 @@
 
 This is Patient Sign up form. To sign up, the user must be filled the Required Information. The following image showing the sign up form
 
+Procedures:
+1. Brows Hospital Management System website
+2. Click on Registration menu from top menu bar
+3. Enter all required information and Submit
+4. Registration will complete successfully and the user will be able to login with the given credentials
+
+**Below the registration form image, I have described the code structure**
+
 ![Signup](https://user-images.githubusercontent.com/107234326/174853097-b85904ca-103d-4efb-be2b-1f69b7204f83.png)
 
 
@@ -14,7 +22,7 @@ This is Patient Sign up form. To sign up, the user must be filled the Required I
 								**Sign Up**
 							</legend>
 							<p>
-								Enter your personal details below:
+**Enter your personal details below**
 							</p>
 							<div class="form-group">
 								<input type="text" class="form-control" name="full_name" placeholder="Full Name" required>
