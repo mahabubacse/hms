@@ -22,7 +22,6 @@ Procedures:
 								**Sign Up**
 							</legend>
 							<p>
-**Enter your personal details below**
 							</p>
 							<div class="form-group">
 								<input type="text" class="form-control" name="full_name" placeholder="Full Name" required>
@@ -56,18 +55,18 @@ Procedures:
 							</p>
 							<div class="form-group">
 								<span class="input-icon">
-									<input type="email" class="form-control" name="email" id="email" onBlur="userAvailability()" ** placeholder="Email" required**
+									<input type="email" class="form-control" name="email" id="email" onBlur="userAvailability()" ** 
 									<i class="fa fa-envelope"></i> </span>
 									 <span id="user-availability-status1" style="font-size:12px;"></span>
 							</div>
 							<div class="form-group">
 								<span class="input-icon">
-									<input type="password" class="form-control" id="password" name="password" **placeholder="Password" required**
+									<input type="password" class="form-control" id="password" name="password" 
 									<i class="fa fa-lock"></i> </span>
 							</div>
 							<div class="form-group">
 								<span class="input-icon">
-									<input type="password" class="form-control"  id="password_again" name="password_again" **placeholder="Password Again" required**
+									<input type="password" class="form-control"  id="password_again" name="password_again" 
 									<i class="fa fa-lock"></i> </span>
 							</div>
 							<div class="form-group">
