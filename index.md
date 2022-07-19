@@ -276,3 +276,9 @@ Procedures:
 	<!-- end: BODY -->
 </html>
 
+This is Doctor Login form. To login, the user must be filled the Required Information. The following image showing 
+Procedures:
+1. Brows Hospital Management System website
+2. Click on Doctor menu 
+3. Enter all required information and login
+
