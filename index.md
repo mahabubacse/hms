@@ -179,10 +179,10 @@ This is Admin login form. To login, the user must be filled the Required Informa
 
 Procedures:
 1. Brows Hospital Management System website
-2. Click on Admin
+2. Click on Admin login 
 3. Enter all required information and Login
 
-**Below the admin login image, We described the code structure**
+**Below the Admin login image, We described the code structure**
 
 ![admin](https://user-images.githubusercontent.com/107234326/179818339-0f80803e-22cc-487b-9954-28b79c32dd72.png)
 
@@ -279,10 +279,10 @@ Procedures:
 This is Doctor Login form. To login, the user must be filled the Required Information. The following image showing 
 Procedures:
 1. Brows Hospital Management System website
-2. Click on Doctor menu 
+2. Click on Doctor login  
 3. Enter all required information and login
 
-**Below the registration form image, We described the code structure**
+**Below the Doctor login image, We described the code structure**
 ![doctor](https://user-images.githubusercontent.com/107234326/179829066-2532847f-a009-4aea-92d0-7e983ebdc1cf.png)
 
 <!DOCTYPE html>
@@ -372,3 +372,105 @@ Procedures:
 	</body>
 	<!-- end: BODY -->
 </html>
+
+This is Donor Login form. To login, the user must be filled the Required Information. The following image showing 
+Procedures:
+1. Brows Hospital Management System website
+2. Click on Donor login  
+3. Enter all required information and login
+
+**Below the Donor login image, We described the code structure**
+![Donor login](https://user-images.githubusercontent.com/107234326/180041876-237bdb9b-c007-40e4-b7c3-b585cc79b4c4.png)
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>User-Login</title>
+		
+		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/themify-icons/themify-icons.min.css">
+		<link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/perfect-scrollbar/perfect-scrollbar.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/switchery/switchery.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/plugins.css">
+		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
+	</head>
+	<body class="login">
+		<div class="row">
+			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+				<div class="logo margin-top-30">
+				<a href="../index.html"><h2> HMS | Blood Donor Login</h2></a>
+				</div>
+
+				<div class="box-login">
+					<form class="form-login" method="post">
+						<fieldset>
+							<legend>
+								Sign in to your account
+							</legend>
+							<p>
+								Please enter your name and password to log in.<br />
+								<span style="color:red;"><?php echo $_SESSION['errmsg']; ?><?php echo $_SESSION['errmsg']="";?></span>
+							</p>
+							<div class="form-group">
+								<span class="input-icon">
+									<input type="text" class="form-control" name="username" placeholder="Username">
+									<i class="fa fa-user"></i> </span>
+							</div>
+							<div class="form-group form-actions">
+								<span class="input-icon">
+									<input type="password" class="form-control password" name="password" placeholder="Password">
+									<i class="fa fa-lock"></i>
+									 </span><a href="forgot-password.php">
+									Forgot Password ?
+								</a>
+							</div>
+							<div class="form-actions">
+								
+								<button type="submit" class="btn btn-primary pull-right" name="submit">
+									Login <i class="fa fa-arrow-circle-right"></i>
+								</button>
+							</div>
+							<div class="new-account">
+								Don't have an account yet?
+								<a href="donor-registration.php">
+									Create an account
+								</a>
+							</div>
+						</fieldset>
+					</form>
+
+					<div class="copyright">
+						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
+					</div>
+			
+				</div>
+
+			</div>
+		</div>
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="vendor/modernizr/modernizr.js"></script>
+		<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
+		<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="vendor/switchery/switchery.min.js"></script>
+		<script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+	
+		<script src="assets/js/main.js"></script>
+
+		<script src="assets/js/login.js"></script>
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				Login.init();
+			});
+		</script>
+	
+	</body>
+	<!-- end: BODY -->
+</html>
+
+
