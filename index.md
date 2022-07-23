@@ -276,6 +276,1649 @@ Procedures:
 	<!-- end: BODY -->
 </html>
 
+This is Admin dashboard
+**Below the Admin Dashboard image, We described the code structure**
+![image](https://user-images.githubusercontent.com/107234326/180590526-05b20c73-3b21-48d4-a2bc-0d1127e6f90e.png)
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Admin  | Dashboard</title>
+		
+		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/themify-icons/themify-icons.min.css">
+		<link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/perfect-scrollbar/perfect-scrollbar.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/switchery/switchery.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/select2/select2.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-datepicker/bootstrap-datepicker3.standalone.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-timepicker/bootstrap-timepicker.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/plugins.css">
+		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
+		
+		
+	</head>
+	<body>
+		<div id="app">		
+			<div class="sidebar app-aside" id="sidebar">
+	<div class="sidebar-container perfect-scrollbar">
+		
+		<nav>
+			
+			<!-- start: MAIN NAVIGATION MENU -->
+			<div class="navbar-title">
+				<span>Main Navigation</span>
+			</div>
+			<ul class="main-navigation-menu">
+				<li>
+					<a href="dashboard.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-home"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Dashboard </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Doctors </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="doctor-specilization.php">
+								<span class="title"> Doctor Specialization </span>
+							</a>
+						</li>
+						<li>
+							<a href="add-doctor.php">
+								<span class="title"> Add Doctor</span>
+							</a>
+						</li>
+						<li>
+							<a href="Manage-doctors.php">
+								<span class="title"> Manage Doctors </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Users </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-users.php">
+								<span class="title"> Manage Users </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Patients </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-patient.php">
+								<span class="title"> Manage Patients </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>	
+				
+				
+				
+								<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Donors </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-donor.php">
+								<span class="title"> Manage Donors </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>	
+				
+				
+				
+				<li>
+					<a href="appointment-history.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-file"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Appointment History </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-files"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Conatctus Queries </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="unread-queries.php">
+								<span class="title"> Unread Query </span>
+							</a>
+						</li>
+						
+						<li>
+						<a href="read-query.php">
+						<span class="title"> Read Query </span>
+						</a>
+						</li>
+						
+						</ul>
+						</li>
+						
+						
+						
+						<li>
+						<a href="doctor-logs.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-list"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Doctor Session Logs </span>
+						</div>
+						</div>
+						</a>
+						</li>		
+						
+						
+						
+						<li>
+						<a href="user-logs.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-list"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> User Session Logs </span>
+						</div>
+						</div>
+						</a>
+						</li>						
+						<li>
+						<a href="javascript:void(0)">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-files"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Reports </span><i class="icon-arrow"></i>
+						</div>
+						</div>
+						</a>
+						<ul class="sub-menu">
+						
+						<li>
+						<a href="between-dates-reports.php">
+						<span class="title">B/w dates reports </span>
+						</a>
+						</li>
+						
+						
+						
+						</ul>
+						<li>
+						<a href="patient-search.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-search"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Patient Search </span>
+						</div>
+						</div>
+						</a>
+						</li>
+						</li>
+						
+						</ul>
+						<!-- end: CORE FEATURES -->
+						
+						</nav>
+						</div>
+						</div>									<div class="app-content">
+				
+				<header class="navbar navbar-default navbar-static-top">
+					<!-- start: NAVBAR HEADER -->
+					<div class="navbar-header">
+						<a href="#" class="sidebar-mobile-toggler pull-left hidden-md hidden-lg" class="btn btn-navbar sidebar-toggle" data-toggle-class="app-slide-off" data-toggle-target="#app" data-toggle-click-outside="#sidebar">
+							<i class="ti-align-justify"></i>
+						</a>
+						<a class="navbar-brand" href="#">
+							<h2 style="padding-top:20%; color:#000 ">HMS</h2>
+						</a>
+						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
+							<i class="ti-align-justify"></i>
+						</a>
+						<a class="pull-right menu-toggler visible-xs-block" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<i class="ti-view-grid"></i>
+						</a>
+					</div>
+					<!-- end: NAVBAR HEADER -->
+					<!-- start: NAVBAR COLLAPSE -->
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-right">
+							<!-- start: MESSAGES DROPDOWN -->
+								<li  style="padding-top:2% ">
+								<h2>Hospital Management System</h2>
+							</li>
+						
+						
+							<li class="dropdown current-user">
+								<a href class="dropdown-toggle" data-toggle="dropdown">
+									<img src="assets/images/images.jpg" > <span class="username">
+
+
+
+			Admin
+									<i class="ti-angle-down"></i></i></span>
+								</a>
+								<ul class="dropdown-menu dropdown-dark">
+									
+								
+									<li>
+										<a href="change-password.php">
+											Change Password
+										</a>
+									</li>
+									<li>
+										<a href="logout.php">
+											Log Out
+										</a>
+									</li>
+								</ul>
+							</li>
+							<!-- end: USER OPTIONS DROPDOWN -->
+						</ul>
+						<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+						<div class="close-handle visible-xs-block menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+							<div class="arrow-left"></div>
+							<div class="arrow-right"></div>
+						</div>
+						<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+					</div>
+				
+					
+					<!-- end: NAVBAR COLLAPSE -->
+				</header>
+				
+				<!-- end: TOP NAVBAR -->
+				<div class="main-content" >
+					<div class="wrap-content container" id="container">
+						<!-- start: PAGE TITLE -->
+						<section id="page-title">
+							<div class="row">
+								<div class="col-sm-8">
+									<h1 class="mainTitle">Admin | Dashboard</h1>
+								</div>
+								<ol class="breadcrumb">
+									<li>
+										<span>Admin</span>
+									</li>
+									<li class="active">
+										<span>Dashboard</span>
+									</li>
+								</ol>
+							</div>
+						</section>
+						<!-- end: PAGE TITLE -->
+						<!-- start: BASIC EXAMPLE -->
+						<div class="container-fluid container-fullw bg-white">
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="panel panel-white no-radius text-center">
+										<div class="panel-body">
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
+											<h2 class="StepTitle">Manage Users</h2>
+											
+											<p class="links cl-effect-1">
+												<a href="manage-users.php">
+																										Total Users :13		
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="panel panel-white no-radius text-center">
+										<div class="panel-body">
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
+											<h2 class="StepTitle">Manage Doctors</h2>
+											
+											<p class="cl-effect-1">
+												<a href="manage-doctors.php">
+																										Total Doctors :10		
+												</a>
+												
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="panel panel-white no-radius text-center">
+										<div class="panel-body">
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
+											<h2 class="StepTitle"> Appointments</h2>
+											
+											<p class="links cl-effect-1">
+												<a href="book-appointment.php">
+													<a href="appointment-history.php">
+																												Total Appointments :12	
+													</a>
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-sm-4">
+									<div class="panel panel-white no-radius text-center">
+										<div class="panel-body">
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
+											<h2 class="StepTitle">Manage Patients</h2>
+											
+											<p class="links cl-effect-1">
+												<a href="manage-patient.php">
+																											Total Patients :5		
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-sm-4">
+									<div class="panel panel-white no-radius text-center">
+										<div class="panel-body">
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
+											<h2 class="StepTitle">Manage Donors</h2>
+											
+											<p class="links cl-effect-1">
+												<a href="manage-donor.php">
+																											Total Donors :3		
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								
+							
+							
+							<div class="col-sm-4">
+							<div class="panel panel-white no-radius text-center">
+							<div class="panel-body">
+							<span class="fa-stack fa-2x"> <i class="ti-files fa-1x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
+							<h2 class="StepTitle"> New Queries</h2>
+							
+							<p class="links cl-effect-1">
+							<a href="book-appointment.php">
+							<a href="unread-queries.php">
+														Total New Queries :2	
+							</a>
+							</a>
+							</p>
+							</div>
+							</div>
+							</div>
+							
+							
+							
+							</div>
+							</div>
+							
+							
+							
+							
+							
+							
+							<!-- end: SELECT BOXES -->
+							
+							</div>
+							</div>
+							</div>
+							<!-- start: FOOTER -->
+							<footer>
+				<div class="footer-inner">
+					<div class="pull-left">
+						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
+					</div>
+					<div class="pull-right">
+						<span class="go-top"><i class="ti-angle-up"></i></span>
+					</div>
+				</div>
+			</footer>							<!-- end: FOOTER -->
+							
+							<!-- start: SETTINGS -->
+							<div class="settings panel panel-default hidden-xs hidden-sm" id="settings">
+				<button ct-toggle="toggle" data-toggle-class="active" data-toggle-target="#settings" class="btn btn-default">
+					<i class="fa fa-spin fa-gear"></i>
+				</button>
+				<div class="panel-heading">
+					Style Selector
+				</div>
+				<div class="panel-body">
+					<!-- start: FIXED HEADER -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left"> Fixed header</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="fixed-header" />
+						</span>
+					</div>
+					<!-- end: FIXED HEADER -->
+					<!-- start: FIXED SIDEBAR -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left">Fixed sidebar</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="fixed-sidebar" />
+						</span>
+					</div>
+					<!-- end: FIXED SIDEBAR -->
+					<!-- start: CLOSED SIDEBAR -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left">Closed sidebar</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="closed-sidebar" />
+						</span>
+					</div>
+					<!-- end: CLOSED SIDEBAR -->
+					<!-- start: FIXED FOOTER -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left">Fixed footer</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="fixed-footer" />
+						</span>
+					</div>
+					<!-- end: FIXED FOOTER -->
+					<!-- start: THEME SWITCHER -->
+					<div class="colors-row setting-box">
+						<div class="color-theme theme-1">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-1">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+						<div class="color-theme theme-2">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-2">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="colors-row setting-box">
+						<div class="color-theme theme-3">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-3">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+						<div class="color-theme theme-4">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-4">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="colors-row setting-box">
+						<div class="color-theme theme-5">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-5">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+						<div class="color-theme theme-6">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-6">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<!-- end: THEME SWITCHER -->
+				</div>
+			</div>							<>
+							<!-- end: SETTINGS -->
+							</div>
+							<!-- start: MAIN JAVASCRIPTS -->
+							<script src="vendor/jquery/jquery.min.js"></script>
+							<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+							<script src="vendor/modernizr/modernizr.js"></script>
+							<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
+							<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+							<script src="vendor/switchery/switchery.min.js"></script>
+							<!-- end: MAIN JAVASCRIPTS -->
+							<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+							<script src="vendor/maskedinput/jquery.maskedinput.min.js"></script>
+							<script src="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+							<script src="vendor/autosize/autosize.min.js"></script>
+							<script src="vendor/selectFx/classie.js"></script>
+							<script src="vendor/selectFx/selectFx.js"></script>
+							<script src="vendor/select2/select2.min.js"></script>
+							<script src="vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+							<script src="vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+							<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+							<!-- start: CLIP-TWO JAVASCRIPTS -->
+							<script src="assets/js/main.js"></script>
+							<!-- start: JavaScript Event Handlers for this page -->
+							<script src="assets/js/form-elements.js"></script>
+							<script>
+							jQuery(document).ready(function() {
+							Main.init();
+							FormElements.init();
+							});
+							</script>
+							<!-- end: JavaScript Event Handlers for this page -->
+							<!-- end: CLIP-TWO JAVASCRIPTS -->
+							</body>
+							</html>
+This is Patients Appointment History Page.	
+**Below the  Patients Appointment History, We described the code structure**
+![image](https://user-images.githubusercontent.com/107234326/180590641-fd165779-7091-4eb2-9925-03acdccdd283.png)
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Patients | Appointment History</title>
+		
+		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/themify-icons/themify-icons.min.css">
+		<link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/perfect-scrollbar/perfect-scrollbar.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/switchery/switchery.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/select2/select2.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-datepicker/bootstrap-datepicker3.standalone.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-timepicker/bootstrap-timepicker.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/plugins.css">
+		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
+	</head>
+	<body>
+		<div id="app">		
+<div class="sidebar app-aside" id="sidebar">
+	<div class="sidebar-container perfect-scrollbar">
+		
+		<nav>
+			
+			<!-- start: MAIN NAVIGATION MENU -->
+			<div class="navbar-title">
+				<span>Main Navigation</span>
+			</div>
+			<ul class="main-navigation-menu">
+				<li>
+					<a href="dashboard.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-home"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Dashboard </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Doctors </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="doctor-specilization.php">
+								<span class="title"> Doctor Specialization </span>
+							</a>
+						</li>
+						<li>
+							<a href="add-doctor.php">
+								<span class="title"> Add Doctor</span>
+							</a>
+						</li>
+						<li>
+							<a href="Manage-doctors.php">
+								<span class="title"> Manage Doctors </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Users </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-users.php">
+								<span class="title"> Manage Users </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Patients </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-patient.php">
+								<span class="title"> Manage Patients </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>	
+				
+				
+				
+								<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Donors </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-donor.php">
+								<span class="title"> Manage Donors </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>	
+				
+				
+				
+				<li>
+					<a href="appointment-history.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-file"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Appointment History </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-files"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Conatctus Queries </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="unread-queries.php">
+								<span class="title"> Unread Query </span>
+							</a>
+						</li>
+						
+						<li>
+						<a href="read-query.php">
+						<span class="title"> Read Query </span>
+						</a>
+						</li>
+						
+						</ul>
+						</li>
+						
+						
+						
+						<li>
+						<a href="doctor-logs.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-list"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Doctor Session Logs </span>
+						</div>
+						</div>
+						</a>
+						</li>		
+						
+						
+						
+						<li>
+						<a href="user-logs.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-list"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> User Session Logs </span>
+						</div>
+						</div>
+						</a>
+						</li>						
+						<li>
+						<a href="javascript:void(0)">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-files"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Reports </span><i class="icon-arrow"></i>
+						</div>
+						</div>
+						</a>
+						<ul class="sub-menu">
+						
+						<li>
+						<a href="between-dates-reports.php">
+						<span class="title">B/w dates reports </span>
+						</a>
+						</li>
+						
+						
+						
+						</ul>
+						<li>
+						<a href="patient-search.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-search"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Patient Search </span>
+						</div>
+						</div>
+						</a>
+						</li>
+						</li>
+						
+						</ul>
+						<!-- end: CORE FEATURES -->
+						
+						</nav>
+						</div>
+						</div>									<div class="app-content">
+				
+
+					<header class="navbar navbar-default navbar-static-top">
+					<!-- start: NAVBAR HEADER -->
+					<div class="navbar-header">
+						<a href="#" class="sidebar-mobile-toggler pull-left hidden-md hidden-lg" class="btn btn-navbar sidebar-toggle" data-toggle-class="app-slide-off" data-toggle-target="#app" data-toggle-click-outside="#sidebar">
+							<i class="ti-align-justify"></i>
+						</a>
+						<a class="navbar-brand" href="#">
+							<h2 style="padding-top:20%; color:#000 ">HMS</h2>
+						</a>
+						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
+							<i class="ti-align-justify"></i>
+						</a>
+						<a class="pull-right menu-toggler visible-xs-block" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<i class="ti-view-grid"></i>
+						</a>
+					</div>
+					<!-- end: NAVBAR HEADER -->
+					<!-- start: NAVBAR COLLAPSE -->
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-right">
+							<!-- start: MESSAGES DROPDOWN -->
+								<li  style="padding-top:2% ">
+								<h2>Hospital Management System</h2>
+							</li>
+						
+						
+							<li class="dropdown current-user">
+								<a href class="dropdown-toggle" data-toggle="dropdown">
+									<img src="assets/images/images.jpg" > <span class="username">
+
+
+
+			Admin
+									<i class="ti-angle-down"></i></i></span>
+								</a>
+								<ul class="dropdown-menu dropdown-dark">
+									
+								
+									<li>
+										<a href="change-password.php">
+											Change Password
+										</a>
+									</li>
+									<li>
+										<a href="logout.php">
+											Log Out
+										</a>
+									</li>
+								</ul>
+							</li>
+							<!-- end: USER OPTIONS DROPDOWN -->
+						</ul>
+						<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+						<div class="close-handle visible-xs-block menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+							<div class="arrow-left"></div>
+							<div class="arrow-right"></div>
+						</div>
+						<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+					</div>
+				
+					
+					<!-- end: NAVBAR COLLAPSE -->
+				</header>
+				<!-- end: TOP NAVBAR -->
+				<div class="main-content" >
+					<div class="wrap-content container" id="container">
+						<!-- start: PAGE TITLE -->
+						<section id="page-title">
+							<div class="row">
+								<div class="col-sm-8">
+									<h1 class="mainTitle">Patients  | Appointment History</h1>
+																	</div>
+								<ol class="breadcrumb">
+									<li>
+										<span>Patients </span>
+									</li>
+									<li class="active">
+										<span>Appointment History</span>
+									</li>
+								</ol>
+							</div>
+						</section>
+						<!-- end: PAGE TITLE -->
+						<!-- start: BASIC EXAMPLE -->
+						<div class="container-fluid container-fullw bg-white">
+						
+
+									<div class="row">
+								<div class="col-md-12">
+									
+									<p style="color:red;">								</p>	
+									<table class="table table-hover" id="sample-table-1">
+										<thead>
+											<tr>
+												<th class="center">#</th>
+												<th class="hidden-xs">Doctor Name</th>
+												<th>Patient Name</th>
+												<th>Specialization</th>
+												<th>Consultancy Fee</th>
+												<th>Appointment Date / Time </th>
+												<th>Appointment Creation Date  </th>
+												<th>Current Status</th>
+												<th>Action</th>
+												
+											</tr>
+										</thead>
+										<tbody>
+
+											<tr>
+												<td class="center">1.</td>
+												<td class="hidden-xs">abc </td>
+												<td class="hidden-xs">Test user</td>
+												<td>Demo test</td>
+												<td>600</td>
+												<td>2019-06-29 / 9:15 AM												</td>
+												<td>2019-06-24 00:31:28</td>
+												<td>
+Cancel by Doctor</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							Canceled												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">2.</td>
+												<td class="hidden-xs">Sanjeev</td>
+												<td class="hidden-xs">Amit kumar</td>
+												<td>Ayurveda</td>
+												<td>8050</td>
+												<td>2019-11-08 / 1:00 PM												</td>
+												<td>2019-11-05 16:28:54</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">3.</td>
+												<td class="hidden-xs">Anuj kumar</td>
+												<td class="hidden-xs">John</td>
+												<td>Dermatologist</td>
+												<td>500</td>
+												<td>2019-11-30 / 5:30 PM												</td>
+												<td>2019-11-11 00:41:34</td>
+												<td>
+Cancel by Doctor</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							Canceled												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">4.</td>
+												<td class="hidden-xs">Anuj kumar</td>
+												<td class="hidden-xs">Rashedul</td>
+												<td>Dermatologist</td>
+												<td>500</td>
+												<td>2020-04-21 / 9:30 AM												</td>
+												<td>2020-04-19 09:22:03</td>
+												<td>
+Cancel by Patient</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							Canceled												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">5.</td>
+												<td class="hidden-xs">Nitesh Kumar</td>
+												<td class="hidden-xs">Tanjiml Islam</td>
+												<td>General Physician</td>
+												<td>1200</td>
+												<td>2020-04-21 / 9:45 AM												</td>
+												<td>2020-04-19 09:35:57</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">6.</td>
+												<td class="hidden-xs">Nitesh Kumar</td>
+												<td class="hidden-xs">Tanjiml Islam</td>
+												<td>General Physician</td>
+												<td>1200</td>
+												<td>2020-04-21 / 9:45 AM												</td>
+												<td>2020-04-19 09:36:21</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">7.</td>
+												<td class="hidden-xs">Nitesh Kumar</td>
+												<td class="hidden-xs">Tanjiml Islam</td>
+												<td>General Physician</td>
+												<td>1200</td>
+												<td>2020-04-22 / 9:45 AM												</td>
+												<td>2020-04-19 09:43:47</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">8.</td>
+												<td class="hidden-xs">Sarita Pandey</td>
+												<td class="hidden-xs">Tanjiml Islam</td>
+												<td>Homeopath</td>
+												<td>600</td>
+												<td>2020-04-21 / 9:45 AM												</td>
+												<td>2020-04-19 09:45:45</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">9.</td>
+												<td class="hidden-xs">Sarita Pandey</td>
+												<td class="hidden-xs">Rashedul</td>
+												<td>Homeopath</td>
+												<td>600</td>
+												<td>2020-04-30 / 3:15 PM												</td>
+												<td>2020-04-19 10:53:44</td>
+												<td>
+Cancel by Patient</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							Canceled												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">10.</td>
+												<td class="hidden-xs">Nitesh Kumar</td>
+												<td class="hidden-xs">Rashedul</td>
+												<td>General Physician</td>
+												<td>1200</td>
+												<td>2020-04-29 / 11:00 AM												</td>
+												<td>2020-04-19 10:58:23</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">11.</td>
+												<td class="hidden-xs">Nitesh Kumar</td>
+												<td class="hidden-xs">Tanjiml</td>
+												<td>General Physician</td>
+												<td>1200</td>
+												<td>2020-04-28 / 11:15 AM												</td>
+												<td>2020-04-19 11:05:02</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+											
+											<tr>
+												<td class="center">12.</td>
+												<td class="hidden-xs">Anuj kumar</td>
+												<td class="hidden-xs">Hanefa Khatun</td>
+												<td>Dermatologist</td>
+												<td>500</td>
+												<td>2020-04-28 / 1:00 AM												</td>
+												<td>2020-04-20 00:49:43</td>
+												<td>
+Active</td>
+												<td >
+												<div class="visible-md visible-lg hidden-sm hidden-xs">
+							No Action yet												</div>
+												<div class="visible-xs visible-sm hidden-md hidden-lg">
+													<div class="btn-group" dropdown is-open="status.isopen">
+														<button type="button" class="btn btn-primary btn-o btn-sm dropdown-toggle" dropdown-toggle>
+															<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu pull-right dropdown-light" role="menu">
+															<li>
+																<a href="#">
+																	Edit
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Share
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Remove
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div></td>
+											</tr>
+											
+																						
+											
+										</tbody>
+									</table>
+								</div>
+							</div>
+								</div>
+						
+						<!-- end: BASIC EXAMPLE -->
+						<!-- end: SELECT BOXES -->
+						
+					</div>
+				</div>
+			</div>
+			<!-- start: FOOTER -->
+	<footer>
+				<div class="footer-inner">
+					<div class="pull-left">
+						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
+					</div>
+					<div class="pull-right">
+						<span class="go-top"><i class="ti-angle-up"></i></span>
+					</div>
+				</div>
+			</footer>			<!-- end: FOOTER -->
+		
+			<!-- start: SETTINGS -->
+	<div class="settings panel panel-default hidden-xs hidden-sm" id="settings">
+				<button ct-toggle="toggle" data-toggle-class="active" data-toggle-target="#settings" class="btn btn-default">
+					<i class="fa fa-spin fa-gear"></i>
+				</button>
+				<div class="panel-heading">
+					Style Selector
+				</div>
+				<div class="panel-body">
+					<!-- start: FIXED HEADER -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left"> Fixed header</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="fixed-header" />
+						</span>
+					</div>
+					<!-- end: FIXED HEADER -->
+					<!-- start: FIXED SIDEBAR -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left">Fixed sidebar</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="fixed-sidebar" />
+						</span>
+					</div>
+					<!-- end: FIXED SIDEBAR -->
+					<!-- start: CLOSED SIDEBAR -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left">Closed sidebar</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="closed-sidebar" />
+						</span>
+					</div>
+					<!-- end: CLOSED SIDEBAR -->
+					<!-- start: FIXED FOOTER -->
+					<div class="setting-box clearfix">
+						<span class="setting-title pull-left">Fixed footer</span>
+						<span class="setting-switch pull-right">
+							<input type="checkbox" class="js-switch" id="fixed-footer" />
+						</span>
+					</div>
+					<!-- end: FIXED FOOTER -->
+					<!-- start: THEME SWITCHER -->
+					<div class="colors-row setting-box">
+						<div class="color-theme theme-1">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-1">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+						<div class="color-theme theme-2">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-2">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="colors-row setting-box">
+						<div class="color-theme theme-3">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-3">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+						<div class="color-theme theme-4">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-4">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="colors-row setting-box">
+						<div class="color-theme theme-5">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-5">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+						<div class="color-theme theme-6">
+							<div class="color-layout">
+								<label>
+									<input type="radio" name="setting-theme" value="theme-6">
+									<span class="ti-check"></span>
+									<span class="split header"> <span class="color th-header"></span> <span class="color th-collapse"></span> </span>
+									<span class="split"> <span class="color th-sidebar"><i class="element"></i></span> <span class="color th-body"></span> </span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<!-- end: THEME SWITCHER -->
+				</div>
+			</div>			
+			<!-- end: SETTINGS -->
+		</div>
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="vendor/modernizr/modernizr.js"></script>
+		<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
+		<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="vendor/switchery/switchery.min.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="vendor/maskedinput/jquery.maskedinput.min.js"></script>
+		<script src="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+		<script src="vendor/autosize/autosize.min.js"></script>
+		<script src="vendor/selectFx/classie.js"></script>
+		<script src="vendor/selectFx/selectFx.js"></script>
+		<script src="vendor/select2/select2.min.js"></script>
+		<script src="vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+		<script src="vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- start: CLIP-TWO JAVASCRIPTS -->
+		<script src="assets/js/main.js"></script>
+		<!-- start: JavaScript Event Handlers for this page -->
+		<script src="assets/js/form-elements.js"></script>
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				FormElements.init();
+			});
+		</script>
+		<!-- end: JavaScript Event Handlers for this page -->
+		<!-- end: CLIP-TWO JAVASCRIPTS -->
+	</body>
+</html>
+
 This is Doctor Login form. To login, the user must be filled the Required Information. The following image showing 
 Procedures:
 1. Brows Hospital Management System website
@@ -372,6 +2015,384 @@ Procedures:
 	</body>
 	<!-- end: BODY -->
 </html>
+
+This is Admin|DOCTOR SESSION LOGS Page.	
+**Below the  Admin|DOCTOR SESSION LOGS, We described the code structure**
+
+![image](https://user-images.githubusercontent.com/107234326/180590795-83c455c5-a912-4c51-a207-40ae05e026eb.png)
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Admin | Doctor Session Logs</title>
+		
+		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/themify-icons/themify-icons.min.css">
+		<link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/perfect-scrollbar/perfect-scrollbar.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/switchery/switchery.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/select2/select2.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-datepicker/bootstrap-datepicker3.standalone.min.css" rel="stylesheet" media="screen">
+		<link href="vendor/bootstrap-timepicker/bootstrap-timepicker.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/css/plugins.css">
+		<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
+	</head>
+	<body>
+		<div id="app">		
+<div class="sidebar app-aside" id="sidebar">
+	<div class="sidebar-container perfect-scrollbar">
+		
+		<nav>
+			
+			<!-- start: MAIN NAVIGATION MENU -->
+			<div class="navbar-title">
+				<span>Main Navigation</span>
+			</div>
+			<ul class="main-navigation-menu">
+				<li>
+					<a href="dashboard.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-home"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Dashboard </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Doctors </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="doctor-specilization.php">
+								<span class="title"> Doctor Specialization </span>
+							</a>
+						</li>
+						<li>
+							<a href="add-doctor.php">
+								<span class="title"> Add Doctor</span>
+							</a>
+						</li>
+						<li>
+							<a href="Manage-doctors.php">
+								<span class="title"> Manage Doctors </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Users </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-users.php">
+								<span class="title"> Manage Users </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Patients </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-patient.php">
+								<span class="title"> Manage Patients </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>	
+				
+				
+				
+								<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-user"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Donors </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="manage-donor.php">
+								<span class="title"> Manage Donors </span>
+							</a>
+						</li>
+						
+					</ul>
+				</li>	
+				
+				
+				
+				<li>
+					<a href="appointment-history.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-file"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Appointment History </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="javascript:void(0)">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-files"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Conatctus Queries </span><i class="icon-arrow"></i>
+							</div>
+						</div>
+					</a>
+					<ul class="sub-menu">
+						
+						<li>
+							<a href="unread-queries.php">
+								<span class="title"> Unread Query </span>
+							</a>
+						</li>
+						
+						<li>
+						<a href="read-query.php">
+						<span class="title"> Read Query </span>
+						</a>
+						</li>
+						
+						</ul>
+						</li>
+						
+						
+						
+						<li>
+						<a href="doctor-logs.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-list"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Doctor Session Logs </span>
+						</div>
+						</div>
+						</a>
+						</li>		
+						
+						
+						
+						<li>
+						<a href="user-logs.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-list"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> User Session Logs </span>
+						</div>
+						</div>
+						</a>
+						</li>						
+						<li>
+						<a href="javascript:void(0)">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-files"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Reports </span><i class="icon-arrow"></i>
+						</div>
+						</div>
+						</a>
+						<ul class="sub-menu">
+						
+						<li>
+						<a href="between-dates-reports.php">
+						<span class="title">B/w dates reports </span>
+						</a>
+						</li>
+						
+						
+						
+						</ul>
+						<li>
+						<a href="patient-search.php">
+						<div class="item-content">
+						<div class="item-media">
+						<i class="ti-search"></i>
+						</div>
+						<div class="item-inner">
+						<span class="title"> Patient Search </span>
+						</div>
+						</div>
+						</a>
+						</li>
+						</li>
+						
+						</ul>
+						<!-- end: CORE FEATURES -->
+						
+						</nav>
+						</div>
+						</div>									<div class="app-content">
+				
+
+					<header class="navbar navbar-default navbar-static-top">
+					<!-- start: NAVBAR HEADER -->
+					<div class="navbar-header">
+						<a href="#" class="sidebar-mobile-toggler pull-left hidden-md hidden-lg" class="btn btn-navbar sidebar-toggle" data-toggle-class="app-slide-off" data-toggle-target="#app" data-toggle-click-outside="#sidebar">
+							<i class="ti-align-justify"></i>
+						</a>
+						<a class="navbar-brand" href="#">
+							<h2 style="padding-top:20%; color:#000 ">HMS</h2>
+						</a>
+						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
+							<i class="ti-align-justify"></i>
+						</a>
+						<a class="pull-right menu-toggler visible-xs-block" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<i class="ti-view-grid"></i>
+						</a>
+					</div>
+					<!-- end: NAVBAR HEADER -->
+					<!-- start: NAVBAR COLLAPSE -->
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-right">
+							<!-- start: MESSAGES DROPDOWN -->
+								<li  style="padding-top:2% ">
+								<h2>Hospital Management System</h2>
+							</li>
+						
+						
+							<li class="dropdown current-user">
+								<a href class="dropdown-toggle" data-toggle="dropdown">
+									<img src="assets/images/images.jpg" > <span class="username">
+
+
+
+			Admin
+									<i class="ti-angle-down"></i></i></span>
+								</a>
+								<ul class="dropdown-menu dropdown-dark">
+									
+								
+									<li>
+										<a href="change-password.php">
+											Change Password
+										</a>
+									</li>
+									<li>
+										<a href="logout.php">
+											Log Out
+										</a>
+									</li>
+								</ul>
+							</li>
+							<!-- end: USER OPTIONS DROPDOWN -->
+						</ul>
+						<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+						<div class="close-handle visible-xs-block menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+							<div class="arrow-left"></div>
+							<div class="arrow-right"></div>
+						</div>
+						<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+					</div>
+				
+					
+					<!-- end: NAVBAR COLLAPSE -->
+				</header>
+				<!-- end: TOP NAVBAR -->
+				<div class="main-content" >
+					<div class="wrap-content container" id="container">
+						<!-- start: PAGE TITLE -->
+						<section id="page-title">
+							<div class="row">
+								<div class="col-sm-8">
+									<h1 class="mainTitle">Admin  | Doctor Session Logs</h1>
+																	</div>
+								<ol class="breadcrumb">
+									<li>
+										<span>Admin </span>
+									</li>
+									<li class="active">
+										<span>Doctor Session Logs</span>
+									</li>
+								</ol>
+							</div>
+						</section>
+						<!-- end: PAGE TITLE -->
+						<!-- start: BASIC EXAMPLE -->
+						<div class="container-fluid container-fullw bg-white">
+						
+
+									<div class="row">
+								<div class="col-md-12">
+									
+									<p style="color:red;">								</p>	
+									<table class="table table-hover" id="sample-table-1">
+										<thead>
+											<tr>
+												<th class="center">#</th>
+												<th class="hidden-xs">User id</th>
+												<th>Username</th>
+												<th>User IP</th>
+												<th>Login time</th>
+												<th>Logout Time </th>
+												<th> Status </th>
+												
+												
+											</tr>
+										</thead>
+										<tbody>
+
+											<tr>
+												<td class="center">1.</td>
+												<td class="hidden-xs"></td>
+												<td class="hidden-xs">doctor</td>
+												<td>127.0.0.1
 
 This is Donor Login form. To login, the user must be filled the Required Information. The following image showing 
 Procedures:
@@ -872,3 +2893,6 @@ This is Doctor dashboard
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
 	</body>
+	
+
+**Below the Doctor Dashboard image, We described the code structure**
